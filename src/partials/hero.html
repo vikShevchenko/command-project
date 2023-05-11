@@ -1,0 +1,79 @@
+<!-- Герой -->
+<section class="hero" id="home">
+  <div class="container hero__general">
+    <!-- <div class="hero__general"> -->
+    <div class="hero__info">
+      <h1 class="hero__title">Enjoy Your Favorite Food From Anywhere</h1>
+      <p class="hero__descript">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+        ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+      </p>
+      <button data-modal-open class="hero__btn animate__animated animate__pulse">
+        Order Now
+      </button>
+    </div>
+
+    <div class="hero__swiper">
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img
+            srcset="
+              ./images/hero/big_hero1@1x.png 528w,
+              ./images/hero/small_hero1@1x.png 292w,
+              ./images/hero/big_hero1@2x.png 1056w,
+              ./images/hero/small_hero1@2x.png 584w
+            "
+            sizes="(min-width: 1280px) 528px, (min-width: 768px) 292px"
+            src="./images/hero/small_hero1@1x.png"
+            alt="Описание изображения для всех версий"
+          />
+          <img
+            srcset="
+              ./images/hero/big_hero2@1x.png 528w,
+              ./images/hero/small_hero2@1x.png 292w,
+              ./images/hero/big_hero2@2x.png 1056w,
+              ./images/hero/small_hero2@2x.png 584w
+            "
+            sizes="(min-width: 1280px) 528px, (min-width: 768px) 292px"
+            src="./images/hero/small_hero2@1x.png"
+            alt="Описание изображения для всех версий"
+          />
+          <img
+            srcset="
+              ./images/hero/big_hero3@1x.png 528w,
+              ./images/hero/small_hero3@1x.png 292w,
+              ./images/hero/big_hero3@2x.png 1056w,
+              ./images/hero/small_hero3@2x.png 584w
+            "
+            sizes="(min-width: 1280px) 528px, (min-width: 768px) 292px"
+            src="./images/hero/small_hero3@1x.png"
+            alt="Описание изображения для всех версий"
+          />
+        </div>
+      </div>
+      <button
+        class="hero__swiper-button hero-swiper-prev animate__animated animate__pulse"
+      >
+        <svg class="hero__svg">
+          <use
+            class="hero__use"
+            href="./images/sprite.svg#arrow-left-simple"
+          ></use>
+        </svg>
+      </button>
+      <button
+        class="hero__swiper-button hero-swiper-next animate__animated animate__pulse"
+      >
+        <svg class="hero__svg">
+          <use
+            class="hero__use"
+            href="./images/sprite.svg#arrow-right-simple"
+          ></use>
+        </svg>
+      </button>
+    </div>
+    <!-- </div> -->
+  </div>
+</section>

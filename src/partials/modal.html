@@ -1,0 +1,43 @@
+<div class="backdrop backdrop--hidden" data-modal>
+    <div class="modal">
+        <p class="modal__title">Order Form</p>
+        <form autocomplete="off">
+            <div class="form-field form-field--space">
+                <label class="label" for="name">Name</label>
+            <input class="form-input form-input--space" name="name" type="text" id="name" placeholder="Your name" minlength="3" maxlength="25" required>
+            <div class="error">
+                <svg width="12" height="12">
+                    <use href="./images/sprite.svg#error_sign"></use>
+                </svg>
+                <span class="error-warning">The name must be between 3 and 25 characters</span>
+            </div>
+            </div>
+            <div class="form-field form-field--space">
+                <label class="label" for="telephone">Phone number</label>
+            <input class="form-input form-input--space" name="telephone" type="tel" id="telephone" placeholder="+38(0_ _) _ _ _   _ _   _ _" required pattern="\+?[0-9\s\-\(\)]+">
+            <div class="error">
+                <svg width="12" height="12">
+                    <use href="./images/sprite.svg#error_sign"></use>
+                </svg>
+                <span class="error-warning"> This phone must be in the format  099 000 00 00</span>
+            </div>
+            </div>
+            <div class="form-field">
+                <label class="label" for="mail">E-mail</label>
+            <input class="form-input" name="mail" type="email" id="mail" placeholder="example@gmail.com" required>
+            <div class="error">
+                <svg width="12" height="12">
+                    <use href="./images/sprite.svg#error_sign"></use>
+                </svg>
+                <span class="error-warning">Please enter a valid email address</span>
+            </div>
+            </div>
+            <button class="send-btn" type="submit">Send</button>
+        </form>
+        <button class="modal-close" type="button" data-modal-close>
+            <svg width="11" height="11">
+                <use href="./images/sprite.svg#burger-close"></use>
+            </svg>
+        </button>
+    </div>
+</div>

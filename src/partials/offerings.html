@@ -1,0 +1,65 @@
+<section class="offerings">
+  <div class="container container-offerings">
+    <div class="offerings__image">
+      <picture>
+        <source
+          srcset="
+            ./images/offerings/apple@1x_lg.png 1x,
+            ./images/offerings/apple@2x_lg.png 2x
+          "
+          media="(min-width: 1280px)"
+          type="image/png"
+        />
+        <source
+          srcset="
+            ./images/offerings/apple@1x_md.png 1x,
+            ./images/offerings/apple@2x_md.png 2x
+          "
+          media="(min-width: 768px)"
+          type="image/png"
+        />
+        <source
+          srcset="
+            ./images/offerings/apple@1x_sm.png 1x,
+            ./images/offerings/apple@2x_sm.png 2x
+          "
+          media="(max-width: 767px)"
+          type="image/png"
+        />
+        <img src="./images/offerings/apple@1x_sm.png" alt="Apple" />
+      </picture>
+    </div>
+    <div class="offerings__block" id="about">
+      <h2 class="offerings__title">What’s Special About Our Offerings</h2>
+      <p class="offerings__description text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+        ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+      </p>
+      <ul class="offerings__advantage-list">
+        <li class="offerings__advantage-item item">
+          <h3 class="offerings__advantage-title">Fastest Delivery</h3>
+          <p class="offerings__advantage-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros.
+          </p>
+        </li>
+        <li class="offerings__advantage-item">
+          <h3 class="offerings__advantage-title">Easy to order</h3>
+          <p class="offerings__advantage-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros.
+          </p>
+        </li>
+      </ul>
+      <button
+        data-modal-open
+        class="offerings__order-now-button order__btn--white"
+        type="button"
+      >
+        Order now
+      </button>
+      <a class="offerings__to-order link" href="#">Read More</a>
+    </div>
+  </div>
+</section>

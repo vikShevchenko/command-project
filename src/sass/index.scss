@@ -1,0 +1,25 @@
+// normalize
+@import './common';
+
+// utils styles
+@import './utils/variables';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './utils/breakpoints';
+
+// base styles
+@import './base/reset';
+@import './base/base';
+
+//components styles
+@import './components/container';
+
+// layouts styles
+@import './layout/header';
+@import './layout/modal';
+@import './layout/hero';
+@import './layout/offerings';
+@import './layout/favorites';
+@import './layout/customers';
+@import './layout/subscribe';
+@import './layout/footer';

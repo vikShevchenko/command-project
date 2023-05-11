@@ -1,0 +1,74 @@
+<header class="header">
+  <div class="container header__wrap">
+    <!-- <div class="header__wrap"> -->
+    <!-- logo -->
+    <img
+      class="logo logo__svg"
+      src="./images/svg/logo.svg"
+      alt="logo"
+      width="65"
+      height="51"
+    />
+
+    <!-- desktop navigation -->
+    <div class="nav-wrap">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#service" class="nav__link">Service</a>
+          </li>
+          <li class="nav__item">
+            <a href="#menu" class="nav__link">Menu</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contacts" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button data-modal-open class="btn-order btn-order--filled">
+        Order Now
+      </button>
+    </div>
+
+    <!-- mobile navigation -->
+    <button class="burger-menu" data-menu-open>
+      <svg class="burger-menu__svg" width="28" height="28">
+        <use href="./images/sprite.svg#burger-menu"></use>
+      </svg>
+    </button>
+
+    <div class="menu-backdrop" data-menu>
+      <div class="menu-container">
+        <button class="burger-close" type="button" data-menu-close>
+          <svg class="burger-close__icon" width="11" height="11">
+            <use href="./images/sprite.svg#burger-close"></use>
+          </svg>
+        </button>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#service" class="nav__link">Service</a>
+          </li>
+          <li class="nav__item">
+            <a href="#menu" class="nav__link">Menu</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contacts" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- </div> -->
+  </div>
+</header>
